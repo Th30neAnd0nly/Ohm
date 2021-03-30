@@ -1,25 +1,11 @@
-<!--https://www.mediafire.com/file/989up6hj5i89kak/Sketchware_Pro_6.3.0_fix1.apk/file-->
-<!--openfolder * <FOLDER_DIR>
-uploadfile * <FILE_DIR>
-deletefile * <FILE_DIR>
-makefolder * <FILE_DIR>
-shownotify * <YOUR_MSG>
-openweburi * <URL>
-internaldir
-installedapps
-sysinfo
-dumpsms
-showphishdata
-getgpslocation
-getnetworklocation
-dmpcalllog  -->
+
 
 
 <h1 align='center'>Ω</h1>
 
 <h2 align='center'>Android RAT</h1>
 
-#### Android RAT built in Android Device for Android User
+#### Android RAT built in Android APP for Android User
 
 ## Features
 - [X] Read , Delete Internal Storage Files
