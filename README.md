@@ -25,6 +25,7 @@
 - [X] No Port Forwarding Needed
 - [X] Fully Undetectable
 - [X] WipeSdcard
+- [X] Shows Update Page , if you want.
 - [X] Pre Binded [Instagram Webview Phising](https://gitHub.com/Th30neAnd0nly/PI)
 ---
 
