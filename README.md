@@ -68,7 +68,7 @@ internaldir | Shows the Internal Storage files and Folders | ```internaldir```
 installedapps | Shows the package name of all the installed apps | ```installedapps```
 sysinfo | Shows The System Information | ```sysinfo```
 dumpsms | Dumps all the SMS and uploads file to Firebase Storage | ```dumpsms```
-showphishdata | Shows the Credentials of  [Instagram](https://github.com/Th30neAnd0nly/PI) |  ```showphishdata```
+showphishdata | Shows the Phished Credentials of  [Instagram](https://github.com/Th30neAnd0nly/PI) |  ```showphishdata```
 getgpslocation | Shows the GPS location | ```getgpslocation```
 getnetworklocation | Shows the Network Location | ```getnetworklocation```
 dmpcalllog  | Dumps all the CALL Log  and upload that file to Firebase Storage | ```dmpcalllog```
