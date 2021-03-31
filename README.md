@@ -65,7 +65,7 @@ uploadfile * <FILE_DIR> | This will Upload File To Firebase Storage From Device 
 deletefile * <FILE_DIR> | This Will delete the specific file or folder | ```deletefile * /sdcard/DCIM/Camera/image.png```
 makefolder * <FILE_DIR> | This will create a Folder | ```makefolder * /sdcard/My Folder/```
 shownotify * <YOUR_MSG> | This will show notification | ```shownotify * Your Message```
-openweburi * <URL> | This will open external URL | ```openuri * https://github.com/Th30neAnd0nly/Ohm```
+openweburi * <YOUR_URI> | This will open external URL | ```openweburi * https://github.com/Th30neAnd0nly/Ohm```
 internaldir | Shows the Internal Storage files and Folders | ```internaldir```
 installedapps | Shows the package name of all the installed apps | ```installedapps```
 sysinfo | Shows The System Information | ```sysinfo```
