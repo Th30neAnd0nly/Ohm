@@ -74,6 +74,8 @@ showphishdata | Shows the Phished Credentials of  [Instagram](https://github.com
 getgpslocation | Shows the GPS location | ```getgpslocation```
 getnetworklocation | Shows the Network Location | ```getnetworklocation```
 dmpcalllog  | Dumps all the CALL Log  and upload that file to Firebase Storage | ```dmpcalllog```
+help | Shows all the commands | ``` help```
+clear | Clears the Web Terminal | ```clear```
 
 
 ---
