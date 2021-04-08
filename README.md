@@ -81,8 +81,9 @@ dmpcalllog  | Dumps all the CALL Log  and upload that file to Firebase Storage |
 ## Consider Donating
 *  [Paypal](https://paypal.me/SaritaChaubey/)
 
-## Thanks 
 # Made with :heart: in Sketchware
+* Thanks to [Modder Team](https://discord.gg/p7D5Nt687K) of Sketchware Pro For adding new features in Official Sketchware.
+
 
 ## DISCLAIMER
 <p align="center">
