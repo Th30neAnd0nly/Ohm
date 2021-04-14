@@ -78,7 +78,7 @@ vibratedevice * <TIME_IN_MS> | Vibrates the victims Device for 'x' seconds | ```
 speachtext * <YOUR_MSG> | This will Use Text To Speach to output your message | ``` speachtext * How are You```
 deviceflashon | Turns on the flash light of device | ```deviceflashon```
 deviceflashoff | Turns of the flash light of victims Device | ```deviceflashoff```
-changewallpaper | Changes the device wallpaper to (this)[https://github.com] | ``` changewallpaper```
+changewallpaper | Changes the device wallpaper to [this](https://github.com) | ``` changewallpaper```
 internaldir | Shows the Internal Storage files and Folders | ```internaldir```
 installedapps | Shows the package name of all the installed apps | ```installedapps```
 sysinfo | Shows The System Information | ```sysinfo```
