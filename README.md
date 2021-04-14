@@ -38,7 +38,7 @@
 ## Requirements
  * Firebase Account (or you can Create one)
  * Android Device :rofl:
-
+---
 ## How to use
 
 1. After Creating a Firebase account you have to enable  Authentication , Firebase Storage , Realtime Database.
@@ -103,6 +103,7 @@ clear | Clears the Web Terminal | ```clear```
 ## DISCLAIMER
 <p align="center">
  TO BE USED FOR EDUCATIONAL PURPOSES ONLY
+[DISCORD](https://discord.gg/fsDrvdYswP)
 </p>
 
 The use of the OHM is COMPLETE RESPONSIBILITY of the END-USER. Developers assume NO liability and are NOT responsible for any misuse or damage caused by this program. Please read [LICENSE](LICENSE).
