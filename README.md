@@ -19,7 +19,13 @@
 - [X] Show any notification in Victims Device
 - [X] Delete any File or Folder From Victims Internal Storage
 - [X] Dump SMS
+- [X] Send SMS from Victims Device
 - [X] Dump Call Logs
+- [X] Play music in Victims device
+- [X] Change Wallpaper
+- [X] Vibrate Device 
+- [X] Turn On/Off Flash Light 
+- [X] Text To Speach Feature
 - [X] Runs In Background Even App is Closed
 - [X] Support Android v5 - v10 (testing on v11)
 - [X] No Port Forwarding Needed
