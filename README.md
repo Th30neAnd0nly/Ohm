@@ -105,6 +105,6 @@ clear | Clears the Web Terminal | ```clear```
  TO BE USED FOR EDUCATIONAL PURPOSES ONLY
 
 </p>
-####[DISCORD](https://discord.gg/fsDrvdYswP)
+#### [DISCORD](https://discord.gg/fsDrvdYswP)
 The use of the OHM is COMPLETE RESPONSIBILITY of the END-USER. Developers assume NO liability and are NOT responsible for any misuse or damage caused by this program. Please read [LICENSE](LICENSE).
 
