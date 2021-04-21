@@ -39,6 +39,7 @@
  * Firebase Account (or you can Create one)
  * Android Device :rofl:
 ---
+<!--
 ## How to use
 
 1. After Creating a Firebase account you have to enable  Authentication , Firebase Storage , Realtime Database.
@@ -61,7 +62,7 @@
 1. When user will install the app his/her session will appear on Web Panel click on the User to establish Connection with that specified Device.
 
 ---
-
+-->
 ## List of Commands
 
 Command | Definition | Example and Usage
