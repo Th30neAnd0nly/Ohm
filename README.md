@@ -6,7 +6,7 @@
 <h2 align='center'>Android RAT</h1>
 
 #### Android RAT built in Android APP for Android User
-
+<!--
 ## Features
 - [X] Read , Delete Internal Storage Files
 - [X] Download Any Media to your Device from Victims Device
@@ -103,8 +103,8 @@ clear | Clears the Web Terminal | ```clear```
 *  [Paypal](https://paypal.me/SaritaChaubey/)
 
 # Made with :heart: in Sketchware
-<!-- * Thanks to [Modder Team](https://discord.gg/p7D5Nt687K) of Sketchware Pro For adding new features in Official Sketchware.
--->
+* Thanks to [Modder Team](https://discord.gg/p7D5Nt687K) of Sketchware Pro For adding new features in Official Sketchware.
+
 
 ## DISCLAIMER
 <p align="center">
@@ -116,3 +116,6 @@ clear | Clears the Web Terminal | ```clear```
 
 The use of the OHM is COMPLETE RESPONSIBILITY of the END-USER. Developers assume NO liability and are NOT responsible for any misuse or damage caused by this program. Please read [LICENSE](LICENSE).
 
+-- >
+
+# UNDER DEVELOPMENT , IT WILL GET BACK SOON
