@@ -94,6 +94,9 @@ clear | Clears the Web Terminal | ```clear```
 
 ---
 
+## Tutorial Video
+* [Get the Tutorial Video](https://www.fiverr.com/s2/d63b5659d5)
+
 ## Consider Donating
 *  [Paypal](https://paypal.me/SaritaChaubey/)
 
