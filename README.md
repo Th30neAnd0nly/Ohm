@@ -97,6 +97,8 @@ clear | Clears the Web Terminal | ```clear```
 ## Tutorial Video
 * [Get the Tutorial Video](https://www.fiverr.com/s2/d63b5659d5)
 
+#### [Discord](https://discord.gg/fsDrvdYswP)
+
 ## Consider Donating
 *  [Paypal](https://paypal.me/SaritaChaubey/)
 
@@ -110,7 +112,7 @@ clear | Clears the Web Terminal | ```clear```
 
 </p>
 
-#### [Discord](https://discord.gg/fsDrvdYswP)
+
 
 The use of the OHM is COMPLETE RESPONSIBILITY of the END-USER. Developers assume NO liability and are NOT responsible for any misuse or damage caused by this program. Please read [LICENSE](LICENSE).
 
