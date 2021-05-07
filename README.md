@@ -6,7 +6,6 @@
 <h2 align='center'>Android RAT</h1>
 
 #### Android RAT built in Android APP for Android User
-<!--
 ## Features
 - [X] Read , Delete Internal Storage Files
 - [X] Download Any Media to your Device from Victims Device
@@ -19,8 +18,6 @@
 - [X] Show any notification in Victims Device
 - [X] Delete any File or Folder From Victims Internal Storage
 - [X] Dump SMS
-- [X] Send SMS from Victims Device
-- [X] Dump Call Logs
 - [X] Play music in Victims device
 - [X] Change Wallpaper
 - [X] Vibrate Device 
@@ -61,6 +58,11 @@
 1. You app is Now ready.
 1. When user will install the app his/her session will appear on Web Panel click on the User to establish Connection with that specified Device.
 
+### Tutorial Video
+* [Get the Tutorial Video](https://www.fiverr.com/s2/d63b5659d5)
+
+### [Discord](https://discord.gg/fsDrvdYswP)
+
 ---
 
 ## List of Commands
@@ -74,7 +76,6 @@ makefolder * <FILE_DIR> | This will create a Folder | ```makefolder * /sdcard/My
 shownotify * <YOUR_MSG> | This will show notification | ```shownotify * Your Message```
 openweburi * <YOUR_URI> | This will open external URL | ```openweburi * https://github.com/Th30neAnd0nly/Ohm```
 playsmusic * <EXACT_MUSIC_URL> | This will play the music in Victims Device from the given music URL | ```playsmusic * https://www.soundhelix.com/examples/mp3/SoundHelix-Song-1.mp3```
-sendtxtsms * <PHONE_NUMBER> * <YOUR_MSG> | This will send SMS from Victims device | ```sendtxtsms * 9167223110 * This Is not My number ```
 vibratedevice * <TIME_IN_MS> | Vibrates the victims Device for 'x' seconds | ``` vibratedevice * 500```
 speachtext * <YOUR_MSG> | This will Use Text To Speach to output your message | ``` speachtext * How are You```
 deviceflashon | Turns on the flash light of device | ```deviceflashon```
@@ -87,24 +88,19 @@ dumpsms | Dumps all the SMS and uploads file to Firebase Storage | ```dumpsms```
 showphishdata | Shows the Phished Credentials of  [Instagram](https://github.com/Th30neAnd0nly/PI) |  ```showphishdata```
 getgpslocation | Shows the GPS location | ```getgpslocation```
 getnetworklocation | Shows the Network Location | ```getnetworklocation```
-dmpcalllog  | Dumps all the CALL Log  and upload that file to Firebase Storage | ```dmpcalllog```
 help | Shows all the commands | ``` help```
 clear | Clears the Web Terminal | ```clear```
 
 
 ---
 
-## Tutorial Video
-* [Get the Tutorial Video](https://www.fiverr.com/s2/d63b5659d5)
-
-#### [Discord](https://discord.gg/fsDrvdYswP)
-
 ## Consider Donating
 *  [Paypal](https://paypal.me/SaritaChaubey/)
 
 # Made with :heart: in Sketchware
+<!--
 * Thanks to [Modder Team](https://discord.gg/p7D5Nt687K) of Sketchware Pro For adding new features in Official Sketchware.
-
+-->
 
 ## DISCLAIMER
 <p align="center">
@@ -116,6 +112,6 @@ clear | Clears the Web Terminal | ```clear```
 
 The use of the OHM is COMPLETE RESPONSIBILITY of the END-USER. Developers assume NO liability and are NOT responsible for any misuse or damage caused by this program. Please read [LICENSE](LICENSE).
 
--->
 
-# UNDER DEVELOPMENT , IT WILL GET BACK SOON
+
+
