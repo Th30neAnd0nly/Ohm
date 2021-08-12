@@ -59,7 +59,7 @@
 # Tutorial Video
 * [Get the Tutorial Video](https://www.fiverr.com/s2/bad969ffcc)
 
-### [Discord](https://discord.com/users/657249813028405249)
+### [Discord](https://discord.gg/8DsczzxU9E)
 
 ---
 
