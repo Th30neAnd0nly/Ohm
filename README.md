@@ -58,7 +58,7 @@
 # Tutorial Video
 * [Get the Tutorial Video](https://www.fiverr.com/s2/bad969ffcc)
 
-### [Discord](https://discord.gg/8DsczzxU9E)
+### [![Join our Discord server!](https://invidget.switchblade.xyz/8DsczzxU9E)](http://discord.gg/8DsczzxU9E)
 
 ---
 
