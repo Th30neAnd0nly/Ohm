@@ -74,7 +74,7 @@ makefolder * <FILE_DIR> | This will create a Folder | ```makefolder * /sdcard/My
 shownotify * <YOUR_MSG> | This will show notification | ```shownotify * Your Message```
 openweburi * <YOUR_URI> | This will open external URL | ```openweburi * https://github.com/Th30neAnd0nly/Ohm```
 playsmusic * <EXACT_MUSIC_URL> | This will play the music in Victims Device from the given music URL | ```playsmusic * https://www.soundhelix.com/examples/mp3/SoundHelix-Song-1.mp3```
-vibratedevice * <TIME_IN_MS> | Vibrates the victims Device for 'x' seconds | ``` vibratedevice * 500```
+vibratedevice * <TIME_IN_MS> | Vibrates the victims Device for 'x' milliseconds | ``` vibratedevice * 500```
 speachtext * <YOUR_MSG> | This will Use Text To Speach to output your message | ``` speachtext * How are You```
 deviceflashon | Turns on the flash light of device | ```deviceflashon```
 deviceflashoff | Turns of the flash light of victims Device | ```deviceflashoff```
