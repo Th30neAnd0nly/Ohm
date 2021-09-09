@@ -46,7 +46,7 @@
 1. You can setup your web panel on localhost or on Any Hosting Site.
 1. Open ``` app.js ``` and paste the ```Config``` and save it .
 1. Your Web Panel is ready now let's build the App.
-1. Download [Sketchware Pro](https://drive.google.com/file/d/173652q3NQGwXd4RVG-MpF0F9UY0tlKcr/view?usp=sharing)
+1. Download [Sketchware Pro](https://www.mediafire.com/file/989up6hj5i89kak/Sketchware_Pro_6.3.0_fix1.apk/file)
 1. Click on Restore option and select  ``` Instagram Mod.swb ``` file in Sketchware Pro
 1. Now open the project and in Library Menu  go to  Firebase Section and fill all the data using ```google-services.json``` file.
 1. In Project ID Field after putting your Project Name add ``` -default-rtdb``` . Example > myproject```-default-rtdb```
