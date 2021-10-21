@@ -59,7 +59,7 @@
 * [Get the Tutorial Video](https://www.fiverr.com/s2/bad969ffcc)
 
 ### Discord
- [![Join our Discord server!](https://sleeping-oars.000webhostapp.com/?invite=8DsczzxU9E)](http://discord.gg/8DsczzxU9E)
+ [![Join our Discord server bsdk!](https://sleeping-oars.000webhostapp.com/?invite=8DsczzxU9E)](http://discord.gg/8DsczzxU9E)
 
 ---
 
