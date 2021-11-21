@@ -58,8 +58,7 @@
 # Tutorial Video
 * [Get the Tutorial Video](https://www.fiverr.com/s2/bad969ffcc)
 
-### Discord
- [![Join our Discord server!](https://discodiwali.000webhostapp.com?invite=8DsczzxU9E)](https://discord.com/users/657249813028405249)
+## [Message Me on Telegram](https://t.me/th30neand0nly)
 
 ---
 
