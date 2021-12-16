@@ -99,6 +99,12 @@ clear | Clears the Web Terminal | ```clear```
 
 * Thanks to [Modder Team](https://discord.gg/p7D5Nt687K) of Sketchware Pro For adding new features in Official Sketchware.
 -->
+---
+
+### ❤️Supporters❤️
+[![Stargazers repo roster for @th30neand0nly/Ohm](https://reporoster.com/stars/dark/Th30neAnd0nly/Ohm)](https://github.com/Th30neAnd0nly/Ohm/stargazers)
+
+[![Forkers repo roster for @th30neand0nly/Ohm](https://reporoster.com/forks/dark/Th30neAnd0nly/Ohm)](https://github.com/Th30neAnd0nly/Ohm/network/members)
 
 ## DISCLAIMER
 <p align="center">
@@ -109,12 +115,6 @@ clear | Clears the Web Terminal | ```clear```
 
 
 The use of the OHM is COMPLETE RESPONSIBILITY of the END-USER. Developers assume NO liability and are NOT responsible for any misuse or damage caused by this program. Please read [LICENSE](LICENSE).
----
-
-### ❤️Supporters❤️
-[![Stargazers repo roster for @th30neand0nly/Ohm](https://reporoster.com/stars/dark/Th30neAnd0nly/Ohm)](https://github.com/Th30neAnd0nly/Ohm/stargazers)
-
-[![Forkers repo roster for @th30neand0nly/Ohm](https://reporoster.com/forks/dark/Th30neAnd0nly/Ohm)](https://github.com/Th30neAnd0nly/Ohm/network/members)
 
 
 
