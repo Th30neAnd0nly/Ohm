@@ -95,7 +95,7 @@ clear | Clears the Web Terminal | ```clear```
 *  [Paypal](https://paypal.me/SaritaChaubey/)
 
 # Made with :heart: in Sketchware
-<!-- gg
+<!-- 
 * Thanks to [Modder Team](https://discord.gg/p7D5Nt687K) of Sketchware Pro For adding new features in Official Sketchware.
 -->
 ---
