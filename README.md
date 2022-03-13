@@ -108,7 +108,6 @@ clear | Clears the Web Terminal | ```clear```
 ## DISCLAIMER
 <p align="center">
  TO BE USED FOR EDUCATIONAL PURPOSES ONLY
-
 </p>
 
 
