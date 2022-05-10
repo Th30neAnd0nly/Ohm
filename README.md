@@ -55,8 +55,10 @@
 1. You app is Now ready.
 1. When user will install the app his/her session will appear on Web Panel click on the User to establish Connection with that specified Device.
 
+<!--
 # Tutorial Video
 * [Get the Tutorial Video](https://www.fiverr.com/s2/bad969ffcc)
+-->
 
 ## [Message Me on Telegram](https://t.me/th30neand0nly)
 
@@ -90,9 +92,6 @@ clear | Clears the Web Terminal | ```clear```
 
 
 ---
-
-## Consider Donating
-*  [Paypal](https://paypal.me/SaritaChaubey/)
 
 # Made with :heart: in Sketchware
 <!-- 
