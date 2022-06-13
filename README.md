@@ -60,7 +60,10 @@
 * [Get the Tutorial Video](https://www.fiverr.com/s2/bad969ffcc)
 -->
 
-## [Message Me on Telegram](https://t.me/th30neand0nly)
+### Tutorial Video
+ https://youtu.be/I6smhYUTo3w ( TUTFLIX)
+
+#### [Message Me on Telegram](https://t.me/th30neand0nly)
 
 ---
 
