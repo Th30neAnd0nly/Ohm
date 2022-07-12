@@ -38,7 +38,7 @@
 
 1. After Creating a Firebase account you have to enable  Authentication , Firebase Storage , Realtime Database.
 1. Make sure that you have selected USA region while creating database.
-1. Now go to Authentication  and in Sign Method section enable Email/Password Method.
+1. Now go to Authentication  and in Sign-in Method section enable Email/Password Method.
 1. After that in Realtime Database Go to rules and set ``` .read ``` and ``` .write ``` to ```true``` 
 1. Also Set Some Data in your Realtime Database as shown in image.
 1. <img src="images/img2.png">
