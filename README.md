@@ -63,7 +63,11 @@
 -->
 
 ### Tutorial Video
- https://youtu.be/I6smhYUTo3w ( TUTFLIX)
+Part 1 | Part 2
+-------|------
+ [![Part1](./images/thumbnail1.png)](https://th30neand0nly.github.io/Ohm/images/part1.mp4) | [![Part2](./images/thumbnail2.png)](https://th30neand0nly.github.io/Ohm/images/part2.mp4)
+
+ Credits: Linuxndroid 
 
 #### [Message Me on Telegram](https://t.me/th30neand0nly)
 
