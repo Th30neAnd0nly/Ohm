@@ -4,6 +4,14 @@
 <h2 align='center'>Android RAT</h1>
 
 #### Android RAT built in Android APP for Android User
+
+<div align="center">
+
+[![https://telegram.me/th30neand0nly0ne](https://img.shields.io/badge/Telegram-Channel-orange.svg?style=flat-square)](https://telegram.me/th30neand0nly0ne)
+[![https://telegram.me/th30neand0nly](https://img.shields.io/badge/Telegram-@th30neand0nly-blue.svg?style=flat-square)](https://telegram.me/th30neand0nly)
+
+</div>
+
 ## Features
 - [X] Read , Delete Internal Storage Files
 - [X] Download Any Media to your Device from Victims Device
@@ -68,8 +76,6 @@ Part 1 | Part 2
  [![Part1](./images/thumbnail1.png)](https://th30neand0nly.github.io/Ohm/images/part1.mp4) | [![Part2](./images/thumbnail2.png)](https://th30neand0nly.github.io/Ohm/images/part2.mp4)
 
  Credits: Linuxndroid 
-
-#### [Message Me on Telegram](https://t.me/th30neand0nly)
 
 ---
 
