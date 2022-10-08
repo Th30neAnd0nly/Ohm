@@ -30,7 +30,7 @@
 - [X] Turn On/Off Flash Light 
 - [X] Text To Speach Feature
 - [X] Runs In Background Even App is Closed
-- [X] Support Android v5 - v11
+- [X] Support Android v5 +
 - [X] No Port Forwarding Needed
 - [X] Fully Undetectable
 - [X] WipeSdcard
