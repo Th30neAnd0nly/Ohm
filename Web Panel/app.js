@@ -1,6 +1,6 @@
 ///Edit Under This only
 
-  
+
     var firebaseConfig = {
     apiKey: "API KEY",
     authDomain: "AUTH DOMAIN",
