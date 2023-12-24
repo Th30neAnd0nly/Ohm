@@ -112,9 +112,9 @@ clear | Clears the Web Terminal | ```clear```
 ---
 
 ### ❤️Supporters❤️
-[![Stargazers repo roster for @th30neand0nly/Ohm](https://reporoster.com/stars/dark/Th30neAnd0nly/Ohm)](https://github.com/Th30neAnd0nly/Ohm/stargazers)
+[![Stargazers repo roster for @th30neand0nly/Ohm](http://reporoster.com/stars/dark/Th30neAnd0nly/Ohm)](https://github.com/Th30neAnd0nly/Ohm/stargazers)
 
-[![Forkers repo roster for @th30neand0nly/Ohm](https://reporoster.com/forks/dark/Th30neAnd0nly/Ohm)](https://github.com/Th30neAnd0nly/Ohm/network/members)
+[![Forkers repo roster for @th30neand0nly/Ohm](http://reporoster.com/forks/dark/Th30neAnd0nly/Ohm)](https://github.com/Th30neAnd0nly/Ohm/network/members)
 
 ## DISCLAIMER
 <p align="center">
